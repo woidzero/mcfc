@@ -8,7 +8,7 @@ MCFC
 :license: MIT, see LICENSE for more details.
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 from mcfc.colors import Color, Format
 from mcfc.main import echo, fmt, info

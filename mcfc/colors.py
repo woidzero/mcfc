@@ -7,8 +7,10 @@ MCFC
 :copyright: (c) 2023 woidzero
 :license: MIT, see LICENSE for more details.
 """
+from dataclasses import dataclass
 
 
+@dataclass
 class Color:
     """Minecraft color codes"""
 
@@ -31,6 +33,7 @@ class Color:
     AQUA = "\x1b[96m"
 
 
+@dataclass
 class Format:
     """Minecraft formatting codes"""
 
